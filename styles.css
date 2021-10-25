@@ -1,0 +1,51 @@
+body{
+    background-color: #C9DBE4;
+    font-family: 'Noto Sans Mono', monospace;
+    margin:0;
+  }
+
+.container {
+    justify-content: center;
+    display:flex;
+    align-items: center; 
+  }
+
+h1.container {
+    font-size: 100px;
+}
+  
+#logo {
+    color: #2d539e;
+  }
+
+#nav-p {
+    display: inline-block;
+    text-align: right;
+}
+
+#navbar p {
+    justify-content: left;
+  }
+
+  #navbar a {
+    color: #2d539e;
+    text-decoration:none;
+    font-size: 12px;
+    padding-right:15px;
+  }
+
+  #navbar a:hover {
+      color: #8c88db;
+  }
+
+.textbox {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    text-align: center;
+}
+
+.quote-input {
+  width: 100px;
+}
